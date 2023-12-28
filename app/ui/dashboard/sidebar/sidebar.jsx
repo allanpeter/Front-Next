@@ -24,7 +24,7 @@ const menuItems = [{
     },
     {
       title: "Users",
-      path: "/dash/users",
+      path: "/dashboard/users",
       icon: <MdSupervisedUserCircle />,
     },
     {
