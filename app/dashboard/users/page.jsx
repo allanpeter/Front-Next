@@ -10,7 +10,25 @@ const UsersPage = () => {
            <button className={styles.addButton}>Add New</button>
        </Link> 
        </div>
-        <table className={styles.table}></table>
+        <table className={styles.table}>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td>Email</td>
+              <td>Creat</td>
+              <td>Role</td>
+              <td>Status</td>
+              <td>Action</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> <div className={styles.user}>
+                
+                              </div></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     )
   }
