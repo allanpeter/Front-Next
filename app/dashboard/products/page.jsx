@@ -1,8 +1,10 @@
-import Search from "@/app/ui/dashboard/search/search"
+
 import Image from "next/image"
 import Link from "next/link"
-import styles from "@/app/ui/dashboard/products/products.module.css"
-import Pagination from "@/app/ui/dashboard/pagination/pagination"
+import styles from "../../ui/dashboard/products/products.module.css"
+import Search from "../../ui/dashboard/search/search"
+import Pagination from "../../ui/dashboard/pagination/pagination"
+
 const Products = () => {
     return (
       <div className={styles.container}>

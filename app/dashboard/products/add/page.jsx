@@ -1,10 +1,10 @@
-import Styles from '@/app/ui/dashboard/products/addProducts/addProducts.module.css'
+import Styles from '../../../ui/dashboard/products/addProducts/addProducts.module.css'
 
 
 const addProductsPage = () => {
     return (
         <div className={Styles.container}>
-            <form action="" className={Styles.container}>
+            <form action="" className={Styles.form}>
                 <input type="text" placeholder='title' name='title' require />
                 <select name="cat" id="cat">
                     <option value="gerneral"> Choose a Category</option>
@@ -13,6 +13,10 @@ const addProductsPage = () => {
                     <option value="Computer">Computer</option>
                 </select>
                 <input type="number" placeholder='price' name='price' />
+                <input type="number" placeholder='stock' name='stock' />
+                <input type="number" placeholder='installments' name='installments' />
+                <textarea name="desc" id="desc" rows="16" placeholder='Description'></textarea>
+                <button type='submit'>Submit</button>
             </form>
         </div>
     )

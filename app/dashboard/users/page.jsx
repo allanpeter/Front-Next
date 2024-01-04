@@ -1,6 +1,6 @@
-import Pagination from '@/app/ui/dashboard/pagination/pagination'
-import Search from '@/app/ui/dashboard/search/search'
-import styles from '@/app/ui/dashboard/users/users.module.css'
+import Pagination from '../../ui/dashboard/pagination/pagination'
+import Search from '../../ui/dashboard/search/search'
+import styles from '../../ui/dashboard/users/users.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -9,7 +9,7 @@ const UsersPage = () => {
     <div className={styles.container}>
       <div className={styles.top}>
         <Search placeholder="Search for a user..." />
-        <Link href='/dashbord/users/add'>
+        <Link href='./users/add'>
           <button className={styles.addButton}>Add New</button>
         </Link>
       </div>
